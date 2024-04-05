@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Inter:slnt,wght@-10..0,100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Play:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #fff;
+}
+
+/* Header */
+
+Header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("headerBg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  width: 90vw;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Play", sans-serif;
+  line-height: 2rem;
+  letter-spacing: 2px;
+}
+
+#logo > span {
+  color: #aa0000;
+}
+
+nav > div {
+  font-size: 0.8rem;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+}
+
+.hero {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  font-size: 3rem;
+  font-family: "Play", sans-serif;
+}
+
+.hero > p {
+  font-size: 0.8rem;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+}
+
+section {
+  width: 100vw;
+  /* height: 100vh; */
+  background-color: #fff;
+  color: black;
+}
+
+.container {
+  padding: 2% 5%;
+}
+
+.container > h2 {
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
+.list-film {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.list-film > div {
+  width: 220px;
+  height: 340px;
+  border: 1px solid #6d6d6d;
+  border-radius: 5px;
+}
+
+.list-film > div > div > img {
+  width: 220px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.list-film > div > div {
+  height: 250px;
+  background: #000;
+}
+
+.list-film > div > article {
+  padding: 5px;
+}
