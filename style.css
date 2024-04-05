@@ -110,6 +110,7 @@ section {
   width: 220px;
   height: 250px;
   object-fit: cover;
+  border-radius: 5px 5px 0 0;
 }
 
 .list-film > div > div {
